@@ -37,7 +37,7 @@ const App = () => {
           return prev + 10 * directions[index];
         }
       }));
-    }, 1000);
+    }, 500);
 
     return () => clearInterval(interval);
   }, [directions]);
